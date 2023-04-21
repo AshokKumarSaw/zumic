@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.teknotrait.automation.zumic.runner.TestRunner" time="210.666" tests="30" errors="9" skipped="12" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_361\bin"/>
+    <property name="java.vm.version" value="25.361-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\User\Desktop\zumic"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\User\Desktop\zumic"/>
+    <property name="java.runtime.version" value="1.8.0_361-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_361\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\User\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\Users\User\zumic-automation-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2294931807570131821.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_361\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_361/bin/server;C:/Program Files/Java/jre1.8.0_361/bin;C:/Program Files/Java/jre1.8.0_361/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;%JAVA_HOME%\bin;C:\Program Files\Maven\apache-maven-3.9.1\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Local\Programs\Git\cmd;C:\Users\User\Desktop\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\User"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="User"/>
+    <property name="java.class.path" value="C:\Users\User\Desktop\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="debug"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_361"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -X -e test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_361"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_361\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_361\lib\resources.jar;C:\Program Files\Java\jre1.8.0_361\lib\rt.jar;C:\Program Files\Java\jre1.8.0_361\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_361\lib\jce.jar;C:\Program Files\Java\jre1.8.0_361\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_361\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_361\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.maintenance.version" value="4"/>
+    <property name="maven.home" value="C:\Users\User\Desktop\zumic\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Given user on the Login Page" classname="| &quot;teknotrait.ashok+7@gmail.com&quot; | &quot;6360289079&quot; |" time="0.001"/>
+  <testcase name="When user enters &apos;Email ID&apos; with &quot;teknotrait.ashok+7@gmail.com&quot;" classname="| &quot;teknotrait.ashok+7@gmail.com&quot; | &quot;6360289079&quot; |" time="0.013">
+    <error message="Keys to send should be a not null CharSequence" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+</error>
+  </testcase>
+  <testcase name="| &quot;teknotrait.ashok+7@gmail.com&quot; | &quot;6360289079&quot; |" classname="| &quot;teknotrait.ashok+7@gmail.com&quot; | &quot;6360289079&quot; |" time="0.013">
+    <error message="Keys to send should be a not null CharSequence" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+</error>
+  </testcase>
+  <testcase name="| &quot;teknotrait.ashok+7@gmail.com&quot; | &quot;6360289079&quot; |" classname="| &quot;teknotrait.ashok+7@gmail.com&quot; | &quot;6360289079&quot; |" time="4.996">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-err><![CDATA[Apr 19, 2023 12:19:53 PM org.openqa.selenium.remote.Augmenter extractRemoteWebDriver
+WARNING: Augmenter should be applied to the instances of @Augmentable classes or previously augmented instances only (instance class was: class org.openqa.selenium.chrome.ChromeDriver)
+Apr 19, 2023 12:19:54 PM org.openqa.selenium.remote.Augmenter extractRemoteWebDriver
+WARNING: Augmenter should be applied to the instances of @Augmentable classes or previously augmented instances only (instance class was: class org.openqa.selenium.chrome.ChromeDriver)
+]]></system-err>
+  </testcase>
+  <testcase name="And user enters &apos;Password&apos; with &quot;6360289079&quot;" classname="| &quot;teknotrait.ashok+7@gmail.com&quot; | &quot;6360289079&quot; |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And user clicks &apos;LOG IN&apos; button" classname="| &quot;teknotrait.ashok+7@gmail.com&quot; | &quot;6360289079&quot; |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then user should get logged in" classname="| &quot;teknotrait.ashok+7@gmail.com&quot; | &quot;6360289079&quot; |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When user clicks &apos;Logout&apos; link" classname="| &quot;teknotrait.ashok+7@gmail.com&quot; | &quot;6360289079&quot; |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then user should get logged out" classname="| &quot;teknotrait.ashok+7@gmail.com&quot; | &quot;6360289079&quot; |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Given user on the Login Page" classname="| &quot;Unregistered User&quot; | &quot;unregistered_email@zumic.com&quot; | &quot;Zumic@123&quot; |" time="0"/>
+  <testcase name="When user enters invalid login credentials for &quot;Unregistered User&quot; with &quot;unregistered_email@zumic.com&quot; and &quot;Zumic@123&quot;" classname="| &quot;Unregistered User&quot; | &quot;unregistered_email@zumic.com&quot; | &quot;Zumic@123&quot; |" time="0"/>
+  <testcase name="Then user should not be able to login" classname="| &quot;Unregistered User&quot; | &quot;unregistered_email@zumic.com&quot; | &quot;Zumic@123&quot; |" time="0"/>
+  <testcase name="| &quot;Unregistered User&quot; | &quot;unregistered_email@zumic.com&quot; | &quot;Zumic@123&quot; |" classname="| &quot;Unregistered User&quot; | &quot;unregistered_email@zumic.com&quot; | &quot;Zumic@123&quot; |" time="0.002">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="Given user on the Login Page" classname="| &quot;Invalid email&quot; | &quot;Invalid email&quot; | &quot;Zumic@123&quot; |" time="0"/>
+  <testcase name="When user enters invalid login credentials for &quot;Invalid email&quot; with &quot;Invalid email&quot; and &quot;Zumic@123&quot;" classname="| &quot;Invalid email&quot; | &quot;Invalid email&quot; | &quot;Zumic@123&quot; |" time="0.001"/>
+  <testcase name="Then user should not be able to login" classname="| &quot;Invalid email&quot; | &quot;Invalid email&quot; | &quot;Zumic@123&quot; |" time="0"/>
+  <testcase name="| &quot;Invalid email&quot; | &quot;Invalid email&quot; | &quot;Zumic@123&quot; |" classname="| &quot;Invalid email&quot; | &quot;Invalid email&quot; | &quot;Zumic@123&quot; |" time="0.002">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="Given user on the Login Page" classname="| &quot;forgot_pwd@yopmail.com&quot; | &quot;Zumic@1234&quot; | &quot;Zumic@1234&quot; |" time="0"/>
+  <testcase name="And user navigates to forgot password page" classname="| &quot;forgot_pwd@yopmail.com&quot; | &quot;Zumic@1234&quot; | &quot;Zumic@1234&quot; |" time="0"/>
+  <testcase name="When user enters valid &quot;forgot_pwd@yopmail.com&quot; to get activation link to reset password" classname="| &quot;forgot_pwd@yopmail.com&quot; | &quot;Zumic@1234&quot; | &quot;Zumic@1234&quot; |" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="| &quot;forgot_pwd@yopmail.com&quot; | &quot;Zumic@1234&quot; | &quot;Zumic@1234&quot; |" classname="| &quot;forgot_pwd@yopmail.com&quot; | &quot;Zumic@1234&quot; | &quot;Zumic@1234&quot; |" time="0">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+  </testcase>
+  <testcase name="| &quot;forgot_pwd@yopmail.com&quot; | &quot;Zumic@1234&quot; | &quot;Zumic@1234&quot; |" classname="| &quot;forgot_pwd@yopmail.com&quot; | &quot;Zumic@1234&quot; | &quot;Zumic@1234&quot; |" time="5.493">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-err><![CDATA[Apr 19, 2023 12:22:05 PM org.openqa.selenium.remote.Augmenter extractRemoteWebDriver
+WARNING: Augmenter should be applied to the instances of @Augmentable classes or previously augmented instances only (instance class was: class org.openqa.selenium.chrome.ChromeDriver)
+Apr 19, 2023 12:22:06 PM org.openqa.selenium.remote.Augmenter extractRemoteWebDriver
+WARNING: Augmenter should be applied to the instances of @Augmentable classes or previously augmented instances only (instance class was: class org.openqa.selenium.chrome.ChromeDriver)
+Apr 19, 2023 12:22:08 PM org.openqa.selenium.remote.Augmenter extractRemoteWebDriver
+WARNING: Augmenter should be applied to the instances of @Augmentable classes or previously augmented instances only (instance class was: class org.openqa.selenium.chrome.ChromeDriver)
+]]></system-err>
+  </testcase>
+  <testcase name="And user clicks on &apos;RESET&apos; button" classname="| &quot;forgot_pwd@yopmail.com&quot; | &quot;Zumic@1234&quot; | &quot;Zumic@1234&quot; |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then confirmation &apos;Success&apos; message is displayed on page" classname="| &quot;forgot_pwd@yopmail.com&quot; | &quot;Zumic@1234&quot; | &quot;Zumic@1234&quot; |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And user gets Activation Link in entered email Id &quot;forgot_pwd@yopmail.com&quot;" classname="| &quot;forgot_pwd@yopmail.com&quot; | &quot;Zumic@1234&quot; | &quot;Zumic@1234&quot; |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="When user clicks on password reset link" classname="| &quot;forgot_pwd@yopmail.com&quot; | &quot;Zumic@1234&quot; | &quot;Zumic@1234&quot; |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And user resets password with &quot;Zumic@1234&quot; and &quot;Zumic@1234&quot;" classname="| &quot;forgot_pwd@yopmail.com&quot; | &quot;Zumic@1234&quot; | &quot;Zumic@1234&quot; |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="And user clicks on &apos;CONFIRM&apos; button" classname="| &quot;forgot_pwd@yopmail.com&quot; | &quot;Zumic@1234&quot; | &quot;Zumic@1234&quot; |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Then User logins in zumic using new password" classname="| &quot;forgot_pwd@yopmail.com&quot; | &quot;Zumic@1234&quot; | &quot;Zumic@1234&quot; |" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="com.teknotrait.automation.zumic.runner.TestRunner" classname="com.teknotrait.automation.zumic.runner.TestRunner" time="5.558">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.teknotrait.automation.zumic.runner.TestRunner.writeExtentReport(TestRunner.java:31)
+</error>
+  </testcase>
+</testsuite>

@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: com.teknotrait.automation.zumic.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 30, Failures: 0, Errors: 9, Skipped: 12, Time elapsed: 210.666 sec <<< FAILURE! - in com.teknotrait.automation.zumic.runner.TestRunner
+When user enters 'Email ID' with "teknotrait.ashok+7@gmail.com"(| "teknotrait.ashok+7@gmail.com" | "6360289079" |)  Time elapsed: 0.013 sec  <<< ERROR!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+
+| "teknotrait.ashok+7@gmail.com" | "6360289079" |  Time elapsed: 0.013 sec  <<< ERROR!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+
+| "teknotrait.ashok+7@gmail.com" | "6360289079" |  Time elapsed: 4.996 sec  <<< ERROR!
+java.lang.NullPointerException
+
+| "Unregistered User" | "unregistered_email@zumic.com" | "Zumic@123" |  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException
+
+| "Invalid email" | "Invalid email" | "Zumic@123" |  Time elapsed: 0.002 sec  <<< ERROR!
+java.lang.NullPointerException
+
+When user enters valid "forgot_pwd@yopmail.com" to get activation link to reset password(| "forgot_pwd@yopmail.com" | "Zumic@1234" | "Zumic@1234" |)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+
+| "forgot_pwd@yopmail.com" | "Zumic@1234" | "Zumic@1234" |  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException
+
+| "forgot_pwd@yopmail.com" | "Zumic@1234" | "Zumic@1234" |  Time elapsed: 5.493 sec  <<< ERROR!
+java.lang.NullPointerException
+
+com.teknotrait.automation.zumic.runner.TestRunner  Time elapsed: 5.558 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.teknotrait.automation.zumic.runner.TestRunner.writeExtentReport(TestRunner.java:31)
+
