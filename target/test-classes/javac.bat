@@ -1,1 +1,0 @@
-cmd.exe /X /C ""C:\Program Files\Java\jdk1.8.0_361\bin\javac.exe" @C:/Users/User/Desktop/zumic/target/test-classes/org.codehaus.plexus.compiler.javac.JavacCompiler7756828513793265868arguments"

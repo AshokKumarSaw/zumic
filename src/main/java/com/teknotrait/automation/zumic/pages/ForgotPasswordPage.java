@@ -5,8 +5,10 @@ import org.openqa.selenium.By;
 import com.teknotrait.automation.zumic.webActions.WebPageActions;
 
 public class ForgotPasswordPage extends WebPageActions{
-	By inputEmailToResetPwd = By.xpath("//input[@id='email-login\']");
-	By btnReset = By.xpath("//button[@id='btn-login']");
+	//By inputEmailToResetPwd = By.xpath("//input[@id='email-login\']");
+	By inputEmailToResetPwd = By.xpath("//body/div[@id='page-wrapper']/div[@id='page-body']/div[2]/div[1]/div[1]/div[1]/form[1]/div[1]/div[2]/input[1]");
+	By btnReset = By.xpath("//body/div[@id='page-wrapper']/div[@id='page-body']/div[2]/div[1]/div[1]/div[1]/form[1]/div[3]/button[1]");
+	//By btnReset = By.xpath("//button[@id='btn-login']");
 	By reset_password_success = By.xpath("//h1[contains(text(),'Success!')]");
 	
 	

@@ -15,9 +15,10 @@ import cucumber.api.junit.Cucumber;
 
 		tags = {"@RegressionTest" },
 		features = { "src/test/resources/featureFiles/" }, 
-		glue = { "com.teknotrait.automation.zumic.stepDefinitions" } 
-		//plugin = { "pretty", "com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:report/Zumic-Automation-Report.html" }, 
-		//monochrome = true, 
+		glue = { "com.teknotrait.automation.zumic.stepDefinitions" }, 
+	//	plugin = { "pretty", "com.vimalselvam.cucumber.listener.ExtentCucumberFormatter:report/Zumic-Automation-Report.html" },
+		plugin = {"pretty", "html:report/Zumic-Automation-Report"},
+		monochrome = true 
 		//strict = false, 
 		//dryRun = true
 

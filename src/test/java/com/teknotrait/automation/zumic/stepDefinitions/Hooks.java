@@ -1,5 +1,7 @@
 package com.teknotrait.automation.zumic.stepDefinitions;
 
+import java.io.File;
+
 import com.aventstack.extentreports.ExtentReports;
 import com.teknotrait.automation.zumic.webActions.WebPageActions;
 import com.vimalselvam.cucumber.listener.Reporter;
@@ -53,10 +55,10 @@ public class Hooks extends WebPageActions {
 		if (scenario.isFailed()) {
 			String snapshot = getScreenShot(fileName);
 
-			/*
-			 * String path = System.getProperty("user.dir") + File.separator + "screenshots"
-			 * + File.separator + fileName + ".png";
-			 */
+			
+//			  String path = System.getProperty("user.dir") + File.separator + "screenshots"
+//			  + File.separator + fileName + ".png";
+//			 
 
 			Reporter.addScreenCaptureFromPath(snapshot);
 

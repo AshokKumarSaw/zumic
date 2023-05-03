@@ -267,7 +267,7 @@ public class WebPageActions extends PropertyFileHandling {
 		try {
 
 			ZipUtil.pack(new File(System.getProperty("user.dir") + "/automationReports"),
-					new File(System.getProperty("user.dir") + "\\eargo-automation-report.zip"));
+					new File(System.getProperty("user.dir") + "\\zumic-automation-report.zip"));
 
 		} catch (Exception e) {
 
@@ -367,7 +367,7 @@ public class WebPageActions extends PropertyFileHandling {
 		SimpleDateFormat sdf = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss");
 		Timestamp timestamp = new Timestamp(System.currentTimeMillis());
 		String currentTimeStamp = sdf.format(timestamp);
-		String timeStampEmail = currentTimeStamp + "@eargoautomation.com";
+		String timeStampEmail = currentTimeStamp + "@zumicautomation.com";
 		return timeStampEmail;
 	}
 
